@@ -57,4 +57,4 @@ ENV/
 .env.local
 
 # 靜態檔案
-staticfiles/
+# staticfiles/
