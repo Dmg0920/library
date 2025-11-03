@@ -21,4 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
     path('library/', include('apps.library.urls')), # http://127.0.0.1:8000/library/
+    path('', include('apps.core.urls')),
 ]
